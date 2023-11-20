@@ -28,6 +28,9 @@ the_files = prjSettings()
 the_files.CFG_FILE = os.path.join(the_folders.DIR_ROOT, "config.ini")
 
 the_files.TEA_CUP_MODEL = os.path.join(the_folders.MODELS, 'Teacup.mdl')
+the_files.SI_MODEL = os.path.join(the_folders.MODELS, 'SI.mdl')
+
+the_files.EBOLA_DATA = os.path.join(the_folders.DIR_DATA_CLEAN, "Ebola_in_SL_Data.csv")
 
 the_files.EXAMPLE_DB = os.path.join(the_folders.DIR_OUTPUTS_DDBB, 'example.db')
 
